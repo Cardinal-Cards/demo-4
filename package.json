@@ -14,7 +14,7 @@
     "prepare": "husky install",
     "playwright:update": "playwright install && playwright install-deps",
     "test:e2e": "playwright test",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage --env=jsdom"
   },
