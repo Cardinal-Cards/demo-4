@@ -1,6 +1,6 @@
 import { Card, InputWithLabel } from '@/components/ui';
 import { getAxiosError } from '@/lib/common';
-import { User } from '@prisma/client';
+import type { User } from '@prisma/client';
 import axios from 'axios';
 import { useFormik } from 'formik';
 import { useTranslation } from 'next-i18next';
